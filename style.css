@@ -1,54 +1,86 @@
 html, body {
-    margin:0px;                             /* clear any default margin */
+    margin:0;                             /* clear any default margin */
     height:100%;
   }
+
+.clock{
+    position: fixed;
+    background: black;
+    width: 10%;
+    margin: 1%;
+    border-radius: 50%;
+}
+
+.clock:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.clock_text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    top: 40%;
+}
+
+.student{
+    position: fixed;
+    background: black;
+    width: 35%;
+    height: 70%;
+    bottom: 0;
+    transform: translate(90%);
+}
 
 /* colors are used as placeholders to the actual backgrounds right now */
 #panel1 {
     background: #ae73c4;
-    height:105%;
+    height:100%;
 }
 
 #panel2 {
     background: #88826e;
-    height:105%;
+    height:100%;
 }
 
 #panel3 { 
     background: #c99700;
-    height:105%;
+    height:100%;
 }
 
 #panel4 {
     background: #ae73c4;
-    height:105%;
+    height:100%;
 }
 
 #panel5 {
     background: #88826e;
-    height:105%;
+    height:100%;
 }
 
 #panel6 { 
     background: #c99700;
-    height:105%;
+    height:100%;
 }
 
 #panel7 {
     background: #ae73c4;
-    height:105%;
+    height:100%;
 }
 
 #panel8 {
     background: #88826e;
-    height:105%;
+    height:100%;
 }
 
 #panel9 { 
     background: #c99700;
-    height:105%;
+    height:100%;
 }
 #panel10 {
     background: #ae73c4;
-    height:105%;
+    height:100%;
 }
