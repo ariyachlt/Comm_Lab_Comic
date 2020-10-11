@@ -1,0 +1,54 @@
+html, body {
+    margin:0px;                             /* clear any default margin */
+    height:100%;
+  }
+
+/* colors are used as placeholders to the actual backgrounds right now */
+#panel1 {
+    background: #ae73c4;
+    height:105%;
+}
+
+#panel2 {
+    background: #88826e;
+    height:105%;
+}
+
+#panel3 { 
+    background: #c99700;
+    height:105%;
+}
+
+#panel4 {
+    background: #ae73c4;
+    height:105%;
+}
+
+#panel5 {
+    background: #88826e;
+    height:105%;
+}
+
+#panel6 { 
+    background: #c99700;
+    height:105%;
+}
+
+#panel7 {
+    background: #ae73c4;
+    height:105%;
+}
+
+#panel8 {
+    background: #88826e;
+    height:105%;
+}
+
+#panel9 { 
+    background: #c99700;
+    height:105%;
+}
+#panel10 {
+    background: #ae73c4;
+    height:105%;
+}
