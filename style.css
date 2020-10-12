@@ -3,6 +3,66 @@ html, body {
     height:100%;
   }
 
+/* colors are used as placeholders to the actual backgrounds right now */
+#panel1 {
+    background: #ae73c4;
+    height:100%;
+}
+
+#panel2 {
+    background: #88826e;
+    height:100%;
+}
+
+#panel3 { 
+    background: #c99700;
+    height:100%;
+}
+
+#panel4 {
+    background: #ae73c4;
+    height:100%;
+}
+
+#panel5 {
+    background: #88826e;
+    height:100%;
+}
+
+#panel6 { 
+    background: #c99700;
+    height:100%;
+}
+
+#panel7 {
+    background: #ae73c4;
+    height:100%;
+}
+
+#panel8 {
+    background: #88826e;
+    height:100%;
+}
+
+#panel9 { 
+    background: #c99700;
+    height:100%;
+}
+#panel10 {
+    background: #ae73c4;
+    height:100%;
+}
+
+/* Objects */
+.student{
+    position: fixed;
+    background: black;
+    width: 35%;
+    bottom: 0;
+    height: 70%;
+    transform: translate(90%);
+}
+
 .clock{
     position: fixed;
     background: black;
@@ -16,73 +76,4 @@ html, body {
     content: "";
     display: block;
     padding-top: 100%;
-}
-
-.student{
-    position: fixed;
-    background: black;
-    width: 35%;
-    height: 70%;
-    bottom: 0;
-    transform: translate(90%);
-}
-
-/* colors are used as placeholders to the actual backgrounds right now */
-#panel1 {
-    background: #ae73c4;
-    height:100%;
-    scroll-snap-align: center;
-}
-
-#panel2 {
-    background: #88826e;
-    height:100%;
-    scroll-snap-align: center;
-}
-
-#panel3 { 
-    background: #c99700;
-    height:100%;
-    scroll-snap-align: center;
-}
-
-#panel4 {
-    background: #ae73c4;
-    height:100%;
-    scroll-snap-align: center;
-}
-
-#panel5 {
-    background: #88826e;
-    height:100%;
-    scroll-snap-align: center;
-}
-
-#panel6 { 
-    background: #c99700;
-    height:100%;
-    scroll-snap-align: center;
-}
-
-#panel7 {
-    background: #ae73c4;
-    height:100%;
-    scroll-snap-align: center;
-}
-
-#panel8 {
-    background: #88826e;
-    height:100%;
-    scroll-snap-align: center;
-}
-
-#panel9 { 
-    background: #c99700;
-    height:100%;
-    scroll-snap-align: center;
-}
-#panel10 {
-    background: #ae73c4;
-    height:100%;
-    scroll-snap-align: center;
 }
