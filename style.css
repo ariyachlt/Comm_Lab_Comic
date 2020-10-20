@@ -3,7 +3,6 @@ html, body {
     height:100%;
   }
 
-
 /* PANEL 1: Sunrise in Bedroom */
 .panel1 {
     background-color: #0c2147;
@@ -49,7 +48,6 @@ html, body {
     height:100%;
 }
 
-
 /* PANEL BACKGROUNDS */
 /* Panel 2: Waking up */
 #img_bed {
@@ -63,8 +61,8 @@ html, body {
     height: 100%;
 }
 
-/* Panel 4: Breakfast */
-#img_breakfast {
+/* Panel 4 (and 8): Living Room (Breakfast and Workout) */
+#img_livingRoom {
     bottom: 0px;
     height: 100%;
 }
@@ -78,12 +76,20 @@ html, body {
     height: 100%;
 }
 
-/* Panel 8: Workout */
-
 /* Panel 11: Bed */
 #img_bedNight {
     bottom: 0px;
     height: 100%;
+}
+
+/* New Day Button */
+/* still needs to be customized and also animate on scroll needed */
+#newDay {
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    color: black;
+    font-size: 1.2em;
 }
 
 /* CHARACTER */
