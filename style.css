@@ -9,7 +9,6 @@ html, body {
     background-color: #0c2147;
     /*background-image: linear-gradient(to bottom, rgb(13, 10, 48), rgb(164, 221, 248));*/
     height: 100%;
-    margin: 0;
     overflow-y: hidden;
     animation: sky 7s forwards;
 }
@@ -50,17 +49,23 @@ html, body {
 #panel2 {
     position: relative;
     height:100%;
-    margin: 0
 }
 
 #img_bed {
     bottom: 0px;
-    width: 100%
+    height: 100%;
 }
 
+/* PANEL 3 */
 #panel3 { 
-    background: #c99700;
+    position: relative;
+    background-color: darkblue;
     height:100%;
+}
+
+#img_bathroom {
+    bottom: 0px;
+    height: 100%;
 }
 
 #panel4 {
