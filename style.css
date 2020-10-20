@@ -59,7 +59,6 @@ html, body {
 /* PANEL 3 */
 #panel3 { 
     position: relative;
-    background-color: darkblue;
     height:100%;
 }
 
@@ -68,11 +67,24 @@ html, body {
     height: 100%;
 }
 
+/* PANEL 4 */
 #panel4 {
-    background: #ae73c4;
+    background-color: #aae3fa;
+    position: relative;
     height:100%;
 }
 
+#ad_skyline {
+    bottom: 0px;
+    height: 100%;
+}
+
+#img_breakfast {
+    bottom: 0px;
+    height: 100%;
+}
+
+/* PANEL 5 */
 #panel5 {
     background: #88826e;
     height:100%;
