@@ -69,16 +69,9 @@ html, body {
 
 /* PANEL 4 */
 #panel4 {
-    background-color: #aae3fa;
     position: relative;
     height:100%;
 }
-
-#ad_skyline {
-    bottom: 0px;
-    height: 100%;
-}
-
 #img_breakfast {
     bottom: 0px;
     height: 100%;
@@ -87,28 +80,45 @@ html, body {
 /* PANEL 5 */
 #panel5 {
     background: #88826e;
+    position: relative;
     height:100%;
 }
 
+/* PANEL 6 */
 #panel6 { 
-    background: #c99700;
+    position: relative;
     height:100%;
 }
 
+#img_d2 {
+    bottom: 0px;
+    height: 100%;
+}
+
+/* PANEL 7 */
 #panel7 {
     background: #ae73c4;
     height:100%;
 }
 
+/* PANEL 8 */
 #panel8 {
     background: #88826e;
     height:100%;
 }
 
+/* PANEL 9 */
 #panel9 { 
-    background: #c99700;
+    position: relative;
     height:100%;
 }
+
+#img_d2 {
+    bottom: 0px;
+    height: 100%;
+}
+
+/* PANEL 10 */
 #panel10 {
     background: #ae73c4;
     height:100%;
