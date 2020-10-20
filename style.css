@@ -4,10 +4,9 @@ html, body {
   }
 
 
-/* PANEL 1 */
+/* PANEL 1: Sunrise in Bedroom */
 .panel1 {
     background-color: #0c2147;
-    /*background-image: linear-gradient(to bottom, rgb(13, 10, 48), rgb(164, 221, 248));*/
     height: 100%;
     overflow-y: hidden;
     animation: sky 7s forwards;
@@ -45,86 +44,49 @@ html, body {
     }
 }
 
-/* PANEL 2 */
-#panel2 {
+.panelStandard {
     position: relative;
     height:100%;
 }
 
+
+/* PANEL BACKGROUNDS */
+/* Panel 2: Waking up */
 #img_bed {
     bottom: 0px;
     height: 100%;
 }
 
-/* PANEL 3 */
-#panel3 { 
-    position: relative;
-    height:100%;
-}
-
+/* Panel 3 (and 10): Bathroom */
 #img_bathroom {
     bottom: 0px;
     height: 100%;
 }
 
-/* PANEL 4 */
-#panel4 {
-    position: relative;
-    height:100%;
-}
+/* Panel 4: Breakfast */
 #img_breakfast {
     bottom: 0px;
     height: 100%;
 }
 
-/* PANEL 5 */
-#panel5 {
-    background: #88826e;
-    position: relative;
-    height:100%;
-}
+/* Panel 5 (and 7): Zoom */
 
-/* PANEL 6 */
-#panel6 { 
-    position: relative;
-    height:100%;
-}
 
+/* Panel 6 (and 9): Lunch (and Dinner) in D2 */
 #img_d2 {
     bottom: 0px;
     height: 100%;
 }
 
-/* PANEL 7 */
-#panel7 {
-    background: #ae73c4;
-    height:100%;
-}
+/* Panel 8: Workout */
 
-/* PANEL 8 */
-#panel8 {
-    background: #88826e;
-    height:100%;
-}
-
-/* PANEL 9 */
-#panel9 { 
-    position: relative;
-    height:100%;
-}
-
-#img_d2 {
+/* Panel 11: Bed */
+#img_bedNight {
     bottom: 0px;
     height: 100%;
 }
 
-/* PANEL 10 */
-#panel10 {
-    background: #ae73c4;
-    height:100%;
-}
-
-/* Objects */
+/* CHARACTER */
 .student{
     position: absolute;
     background: black;
@@ -133,3 +95,5 @@ html, body {
     height: 70%;
     transform: translate(90%);
 }
+
+/* OBJECTS */
