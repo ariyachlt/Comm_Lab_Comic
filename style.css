@@ -3,12 +3,49 @@ html, body {
     height:100%;
   }
 
-/* colors are used as placeholders to the actual backgrounds right now */
+
+/* PANEL 1 */
 #panel1 {
-    background: #ae73c4;
+    background-color: #0c2147;
+    /*background-image: linear-gradient(to bottom, rgb(13, 10, 48), rgb(164, 221, 248));*/
     height:100%;
+    overflow-y: hidden;
+    animation: sky 7s forwards;
 }
 
+@keyframes sky {
+    50% {
+        background-color: #7dbdf1;
+    }
+    100% {
+        background-color: #aae3fa;
+    }
+}
+
+#img_bedroom {
+    position: absolute;
+    bottom: 0px;
+}
+
+.sun {
+    background-color: #ffc21a;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 29.5%;
+    bottom: 0;
+    box-shadow: 0px 0px 20px 5px #ffc21a;
+    animation: sunset 10s forwards;
+}
+
+@keyframes sunset {
+    100% {
+        transform: translateY(-500px);
+    }
+}
+
+/* PANEL 2 */
 #panel2 {
     background: #88826e;
     height:100%;
@@ -55,25 +92,9 @@ html, body {
 
 /* Objects */
 .student{
-    position: fixed;
     background: black;
     width: 35%;
     bottom: 0;
     height: 70%;
     transform: translate(90%);
-}
-
-.clock{
-    position: fixed;
-    background: black;
-    width: 10%;
-    margin: 1%;
-    top: 0;
-    border-radius: 50%;
-}
-
-.clock:before{
-    content: "";
-    display: block;
-    padding-top: 100%;
 }
