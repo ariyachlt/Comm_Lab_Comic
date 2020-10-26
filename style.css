@@ -5,8 +5,8 @@ html, body {
 
 body {
     background-color: rgb(243, 229, 213); /* rgb(29, 29, 29) */
-    min-width: 768px;
-    min-height: 480px;
+    min-width: 1152px;
+    min-height: 720px;
     font-family: 'Amatic SC';
     font-style: normal;
     font-variant: normal;
@@ -16,6 +16,8 @@ body {
 /* -------------------------------------------------------------------------------------------------------- */
 
 /* TITLE and TEXTS */
+
+/* Title */
 .title_box {
     /*background-color: sandybrown;  /* color is here for debugging.. should remove later */
     width: 75%;
@@ -23,28 +25,83 @@ body {
     padding: 0 50px 0 50px;
     margin: auto;
     text-align: center;
-    font-size: 4.5em;
+    font-size: 4.6em;
     position: relative;
 }
 
+/* Text */
 .text {
     background-color: white;
     position: absolute;
     border: 2px solid rgb(29, 29, 29);
+    text-align: center;
     border-radius: 3px; 
-    font-size: 1.6em;
+    font-size: 1.8em;
 }
 
 #text_panel1 {
     width: 20%;
     top: 10%;
-    right: 1%;
+    right: -2%;
 }
 
 #text_panel2 {
     width: 40%;
-    top: 2%;
-    right: 5%;
+    bottom: 6%;
+    right: 3%;
+}
+
+#text_panel3 {
+    width: 60%;
+    top: 10%;
+    left: -2%;
+}
+
+#text_panel4 {
+    width: 30%;
+    top: 13%;
+    right: 2%;
+}
+
+#text_panel5 {
+    width: 15%;
+    bottom: 20%;
+    left: -2%;
+}
+
+#text_panel6 {
+    width: 64%;
+    top: 5%;
+    left: 18%;
+}
+
+#text_panel7 {
+    width: 35%;
+    top: 13%;
+    right: -2%;
+}
+
+#text_panel8 {
+    width: 25%;
+    top: 13%;
+    right: 7%;
+}
+
+#text_panel9 {
+    width: 60%;
+    top: 10%;
+    left: -2%;
+}
+#text_panel10 {
+    width: 18%;
+    top: 40%;
+    left: 2.5%;
+}
+
+#text_panel11 {
+    width: 64%;
+    top: 5%;
+    left: 6%;
 }
 
 /* -------------------------------------------------------------------------------------------------------- */
@@ -67,11 +124,12 @@ body {
 /* -------------------------------------------------------------------------------------------------------- */
 
 /* OBJECTS */
+
 /* Alarm clock */
 .alarmclock {
     position: absolute;
     top: 10%;
-    left: 3%;
+    left: 5%;
     width: 18%;
 }
 
