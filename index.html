@@ -1,66 +1,163 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>home</title>
-        <link rel="stylesheet" href="style.css">
+        <title> COMIX </title>
+        <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
         <script src="jquery-3.5.1.min.js"></script>
     </head>
 
-    <!-- Panel 1: Sunrise in Bedroom -->
-    <div class="panel1">
-        <div class="sun"></div>
-        <img id="img_bedroom" src="bedroom.svg">
-    </div>
+    <body>
+        <div class="title_box">
+            Wake-up, Zoom, Sleep, Repeat
+        </div>
 
-    <!-- Panel 2: Waking up -->
-    <div class="panelStandard">
-        <div class="student"></div>
-        <img id="img_bed" src="bed.svg">
-    </div>
+        <!-- Panel 1: Sunrise in Bedroom -->
+         <div class="panel">
+            <img class="panel_img" src="bedroom.gif">
+            <div class="text" id="text_panel1" data-aos="fade-left" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf
+            </div>
+        </div>
 
-    <!-- Panel 3: Bathroom -->
-    <div class="panelStandard">
-        <img id="img_bathroom" src="bathroom.svg">
-    </div>
+        <!-- Panel 2: Waking up -->
+        <div class="panel">
+            <img class="panel_img" src="bed.png">
+            <img class="alarmclock" src="alarm.gif">
+            <div class="text" id="text_panel2" data-aos="zoom-in" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf
+            </div>        
+        </div>
 
-    <!-- Panel 4: Breakfast -->
-    <div class="panelStandard">
-        <img id="img_livingRoom" src="livingRoom.svg">
-    </div>
+        <!-- Panel 3: Bathroom (Morning) -->
+        <div class="panel">
+            <img class="panel_img" src="bathroomMorning.png">
+            <div class="toothbrush" data-aos="fade-left" data-aos-duration=1000>
+                <img src="toothbrush.svg">
+            </div>
+            <div class="text" id="text_panel3" data-aos="fade-right" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf literally about anything babla balbal 
+            </div>    
+        </div>
 
-    <!-- Panel 5: Zoom 1 -->
-    <div class="panelStandard">
-    </div>
+        <!-- Panel 4: Breakfast -->
+        <div class="panel">
+            <img class="panel_img" src="breakfast.png">
+            <div class="cerealbowl" data-aos="fade-up" data-aos-duration=1000>
+                <img src="cereal.png">
+            </div>
+            <div class="coffee" data-aos="zoom-in" data-aos-duration=1000>
+                <img src="coffee.svg">
+            </div>
+            <div class="text" id="text_panel4" data-aos="fade-in" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf literally about anything babla balbal 
+            </div>   
+        </div>       
+        
+        <!-- Panel 5: Zoom 1 -->
+        <div class="panel">
+            <img class="panel_img" src="zoom.png">
+            <div class="text" id="text_panel5" data-aos="fade-right" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf
+            </div>
+        </div>      
+        
+        <!-- Panel 6: Lunch in D2 -->
+        <div class="panel">
+            <img class="panel_img" src="d2.png">
+            <img class="musicalnotes" src="musical_notes.gif">
+            <div class="lunchfood" data-aos="fade-up" data-aos-duration=1000>
+                <img src="salad.png">
+            </div>
+            <div class="headphones" data-aos="fade-down" data-aos-duration=700>
+                <img src="headphones.png">
+            </div>
+            <div class="text" id="text_panel6" data-aos="zoom-in" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf
+            </div>
+        </div>  
 
-    <!-- Panel 6: Lunch in D2 -->
-    <div class="panelStandard">
-        <img id="img_d2" src="d2.svg">
-    </div>
+        <!-- Panel 7: Zoom 2 -->
+        <div class="panel">
+            <img class="panel_img" src="zoom.png">
+            <div class="text" id="text_panel7" data-aos="fade-left" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf
+            </div> 
+        </div>  
 
-    <!-- Panel 7: Zoom 2 -->
-    <div class="panelStandard">
-    </div>
+        <!-- Panel 8: Workout -->
+        <div class="panel">
+            <img class="panel_img" src="workout.gif">
+            <div class="droplet" data-aos="fade-down" data-aos-duration=1500>
+                <img src="droplet.png">
+            </div>
+            <div class="text" id="text_panel8" data-aos="zoom-in" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdf bjshd dfhdhf dkjfh skjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf
+            </div> 
+        </div>  
 
-    <!-- Panel 8: Workout -->
-    <div class="panelStandard">
-        <img id="img_livingRoom" src="livingRoom.svg">
-    </div>
+        <!-- Panel 9: Dinner in D2 -->
+        <div class="panel">
+            <img class="panel_img" src="d2.png">
+            <div class="dinnerplate" data-aos="zoom-in" data-aos-duration=1000>
+                <img src="pasta.png">
+            </div>
+            <div class="text" id="text_panel9" data-aos="fade-right" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf
+            </div> 
+        </div>
 
-    <!-- Panel 9: Dinner in D2 -->
-    <div class="panelStandard">
-        <img id="img_d2" src="d2.svg">
-    </div>
+        <!-- Panel 10: Shower -->
+        <div class="panel">
+            <img class="panel_img" src="bathroomNight.png">
+            <div class="shower">
+                <img src="showerhead.png">
+            </div>
+            <div class="wd" id="wd1"  data-aos="fade-down-left" data-aos-duration=850>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd2" data-aos="fade-down-left" data-aos-duration=500>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd3" data-aos="fade-down-left" data-aos-duration=700>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd4" data-aos="fade-down-left" data-aos-duration=600>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd5" data-aos="fade-down-left" data-aos-duration=900>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd6" data-aos="fade-down-left" data-aos-duration=700>
+                <img src="waterdrop.png">
+            </div>
+            <div class="wd" id="wd7" data-aos="fade-down-left" data-aos-duration=900>
+                <img src="waterdrop.png">
+            </div>
+            <div class="foam" data-aos="zoom-in" data-aos-duration=200>
+                <img src="foam.png">
+            </div>
+            <div class="text" id="text_panel10" data-aos="fade-right" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf jfhsk jdn kdjfhs dskfbsd kjhdf bjshd dfhdhf
+            </div>
+        </div>
 
-    <!-- Panel 10: Shower -->
-    <div class="panelStandard">
-        <img id="img_bathroom" src="bathroom.svg">
-    </div>
-
-    <!-- Panel 11: Bed -->
-    <div class="panelStandard">
-        <img id="img_bedNight" src="bedNight.svg">
-        <div id="newDay"> Click here to start the next day </div>
-    </div>
+        <!-- Panel 11: Bed -->
+        <div class="panel">
+            <img class="panel_img" src="bed_night.png">
+            <div class="zzz" data-aos="fade-up-right" data-aos-duration=1000>
+                <img src="zzz.png">
+            </div>
+            <div class="button_cont" align="center">
+                <a class="example_f" href="file:///C:/Users/Admin/Documents/GitHub/comix/index.html" rel="nofollow"><span>NEXT DAY</a>
+            </div>
+            <div class="text" id="text_panel11" data-aos="zoom-in" data-aos-duration=1200> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf
+            </div>
+        </div>
+    </body>
     
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </html>
