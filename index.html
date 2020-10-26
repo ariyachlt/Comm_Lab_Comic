@@ -2,22 +2,32 @@
 <html>
     <head>
         <title> COMIX </title>
+        <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+        <link href="style.css" rel="stylesheet">
         <script src="jquery-3.5.1.min.js"></script>
     </head>
 
     <body>
+        <div class="title_box">
+            Wake-up, Zoom, Sleep, Repeat
+        </div>
+
         <!-- Panel 1: Sunrise in Bedroom -->
          <div class="panel">
             <img class="panel_img" src="bedroom.gif">
-        
+            <div class="text" id="text_panel1" data-aos="fade-left" data-aos-duration=1500> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf
+            </div>
         </div>
 
         <!-- Panel 2: Waking up -->
         <div class="panel">
             <img class="panel_img" src="bed.png">
             <img class="alarmclock" src="alarm.gif">
+            <div class="text" id="text_panel2" data-aos="fade-down" data-aos-duration=1500> 
+                some kind of narrative text blablabal dkfjshdkfsj dkjfhskjdn kdjfhs dskfbsd kjhdfbjshd dfhdhf
+            </div>        
         </div>
 
         <!-- Panel 3: Bathroom (Morning) -->
@@ -31,7 +41,7 @@
         <!-- Panel 4: Breakfast -->
         <div class="panel">
             <img class="panel_img" src="breakfast.png">
-            <div class="cerealbowl" data-aos="zoom-in" data-aos-duration=1000>
+            <div class="cerealbowl" data-aos="fade-up" data-aos-duration=1000>
                 <img src="cereal.png">
             </div>
             <div class="coffee" data-aos="zoom-in" data-aos-duration=1000>
@@ -47,7 +57,7 @@
         <!-- Panel 6: Lunch in D2 -->
         <div class="panel">
             <img class="panel_img" src="d2.png">
-            <div class="lunchfood" data-aos="flip-right" data-aos-duration=1000>
+            <div class="lunchfood" data-aos="fade-up" data-aos-duration=1000>
                 <img src="salad.png">
             </div>
             <div class="headphones" data-aos="fade-down" data-aos-duration=700>
