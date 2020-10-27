@@ -54,8 +54,29 @@ clock.onclick = function() {
 }
 
 
+/*Panel 3: Toothbrush Sound*/
+var brush = new Audio("brushingTeeth.mp3");
+let toothbrush=document.getElementById("toothbrush");
+var brushcounter=0;
+
+toothbrush.onclick = function() {
+	if (brushcounter==0){
+		brush.play();
+		brushcounter++;
+		brush.addEventListener("ended", function() {
+			this.currentTime = 0;
+			brushcounter=0;
+		});
+	}
+	else if(brushcounter==1){
+		brush.pause();
+		brushcounter=0;
+	}
+}
+
+
 /*Panel 5: Zoom Meeting Is Being Recorded Message*/
-var zoomrecord = new Audio("zoomrecord.mp3");
+var zoomrecord = new Audio("zoomSound.mp3");
 let record=document.getElementById("record");
 var recordcounter=0;
 
@@ -94,6 +115,27 @@ music.onclick = function() {
 	else if(musiccounter==1){
 		fireworks.pause();
 		musiccounter=0;
+	}
+}
+
+
+/*Panel 7: Zoom Meeting Is Being Recorded Message*/
+var zoomrecord1 = new Audio("zoomSound.mp3");
+let record1=document.getElementById("record1");
+var record1counter=0;
+
+record1.onclick = function() {
+	if (record1counter==0){
+		zoomrecord1.play();
+		record1counter++;
+		zoomrecord1.addEventListener("ended", function() {
+			this.currentTime = 0;
+			record1counter=0;
+		});
+	}
+	else if(record1counter==1){
+		zoomrecord1.pause();
+		record1counter=0;
 	}
 }
 
