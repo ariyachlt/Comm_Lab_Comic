@@ -45,6 +45,11 @@ body {
     right: -2%;
 }
 
+/*hover cursor change has been added for all clickable objects*/
+#text_panel1:hover{
+    cursor: pointer;
+}
+
 #text_panel2 {
     width: 40%;
     bottom: 6%;
@@ -106,8 +111,9 @@ body {
 
 /* -------------------------------------------------------------------------------------------------------- */
 
+/*ALL PANELS*/
+
 .panel {
-    /*background-color: royalblue;  /* color is here for debugging.. should remove later */
     width: 75%;
     padding: 50px;
     margin: auto;
@@ -125,6 +131,7 @@ body {
 
 /* OBJECTS */
 
+/*Panel 2*/
 /* Alarm clock */
 .alarmclock {
     position: absolute;
@@ -133,10 +140,12 @@ body {
     width: 18%;
 }
 
-.alarmclock img {
-    width: 100%;
+.alarmclock:hover{
+   cursor:pointer;
 }
 
+
+/*Panel 3*/
 /* Toothbrush */
 .toothbrush {   
     position: absolute;
@@ -150,6 +159,8 @@ body {
     width:100%;
 }
 
+
+/*Panel 4*/
 /* Cereal */
 .cerealbowl {
     position: absolute;
@@ -174,6 +185,22 @@ body {
     width: 100%;
 }
 
+
+/*Panel 5*/
+#record{
+    width:5%;
+    height:5.6%;
+    position: absolute;
+    top:10%;
+    left:47.6%;  
+}
+
+#record:hover{
+    cursor:pointer;
+}
+
+
+/*Panel 6*/
 /* Musical notes */
 .musicalnotes {
     position: absolute;
@@ -209,6 +236,12 @@ body {
     width: 100%;
 }
 
+.headphones:hover{
+    cursor: pointer;
+}
+
+
+/*Panel 8*/
 /* Droplet */
 .droplet {
     position: absolute;
@@ -221,6 +254,8 @@ body {
     width: 100%;
 }
 
+
+/*Panel 9*/
 /* Dinner */
 .dinnerplate {
     position: absolute;
@@ -232,16 +267,35 @@ body {
     width: 100%;
 }
 
+#noise{
+    position: absolute;
+    width:13%;
+    height:15%;
+    right:4.5%;
+    top:9%;
+}
+
+#noise:hover{
+    cursor: pointer;
+    
+}
+
+
+/*Panel 10*/
 /* Showerhead*/
 .shower {
     position: absolute;
-    top: 6%;
+    top: 8%;
     right: 47px;
     width: 20%;
 }
 
 .shower img {
     width: 100%;
+}
+
+.shower:hover{
+    cursor:pointer;
 }
 
 /* Shower water droplets */
@@ -259,7 +313,7 @@ body {
     top:40%;
 }
 #wd2{
-    right:19%;
+    right:28%;
     top:30%;
 }
 #wd3{
@@ -268,7 +322,7 @@ body {
 }
 #wd4{
     right:18%;
-    top:40%;
+    top:35%;
 }
 #wd5{
     right:35%;
@@ -287,7 +341,7 @@ body {
 .foam{
     position: absolute;
     left: 34%;
-    top: 15%;
+    top: 20%;
     width: 33%;
 }
 
@@ -296,6 +350,8 @@ body {
 
 }
 
+
+/*Panel 11*/
 /* Sleep zzz */
 .zzz {
     position: absolute;
